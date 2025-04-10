@@ -15,13 +15,13 @@
          </font>
       </Label>
       <TextArea fx:id="serverTextArea" layoutX="19.0" layoutY="93.0" prefHeight="200.0" prefWidth="561.0" style="-fx-border-color: #727272;" />
-      <TextField fx:id="serverTextField" layoutX="19.0" layoutY="365.0" prefHeight="171.0" prefWidth="398.0" style="-fx-border-color: #727272;" />
+      <TextField fx:id="serverTextField" layoutX="19.0" layoutY="363.0" prefHeight="74.0" prefWidth="562.0" style="-fx-border-color: #727272;" />
       <Label layoutX="19.0" layoutY="330.0" text="Type Your Message">
          <font>
             <Font size="15.0" />
          </font>
       </Label>
-      <Button fx:id="btnserverSend" layoutX="441.0" layoutY="432.0" mnemonicParsing="false" onAction="#btnserverSendOnAction" prefHeight="38.0" prefWidth="139.0" style="-fx-background-color: #00df69; -fx-border-color: #727272; -fx-text-fill: #000000;" text="Send">
+      <Button fx:id="btnserverSend" layoutX="441.0" layoutY="464.0" mnemonicParsing="false" onAction="#btnserverSendOnAction" prefHeight="38.0" prefWidth="139.0" style="-fx-background-color: #00df69; -fx-border-color: #727272; -fx-text-fill: #000000;" text="Send">
          <font>
             <Font size="15.0" />
          </font>
