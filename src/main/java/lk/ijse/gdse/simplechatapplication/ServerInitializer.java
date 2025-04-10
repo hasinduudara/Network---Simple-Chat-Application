@@ -15,8 +15,8 @@ public class ServerInitializer extends Application {
         Parent root = loader.load();
 
         // Set the title and icon for the stage
-        stage.setTitle("Simple Chat Application - ServerInitializer");
-        stage.getIcons().add(new Image(getClass().getResourceAsStream("/images/chat.png")));
+        stage.setTitle("Simple Chat Application - Server");
+        stage.getIcons().add(new Image(getClass().getResourceAsStream("/images/server.png")));
 
         // Create a scene and set it to the stage
         Scene scene = new Scene(root);
