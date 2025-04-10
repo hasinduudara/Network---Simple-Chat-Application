@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="clientPage" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse.simplechatapplication.controller.ClientPageController">
+   <children>
+      <Label alignment="CENTER" prefHeight="74.0" prefWidth="600.0" style="-fx-background-color: #0083ff; -fx-text-fill: #ffffff;" text="Client Page">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="clientTextArea" layoutX="19.0" layoutY="93.0" prefHeight="200.0" prefWidth="561.0" style="-fx-border-color: #727272;" />
+      <TextField fx:id="clientTextField" layoutX="19.0" layoutY="366.0" prefHeight="171.0" prefWidth="398.0" style="-fx-border-color: #727272;" />
+      <Label layoutX="19.0" layoutY="330.0" text="Type Your Message">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnclientSend" layoutX="441.0" layoutY="432.0" mnemonicParsing="false" onAction="#btnclientSendOnAction" prefHeight="38.0" prefWidth="139.0" style="-fx-background-color: #00df69; -fx-border-color: #727272; -fx-text-fill: #000000;" text="Send">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
