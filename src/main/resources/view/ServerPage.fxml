@@ -4,6 +4,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -26,5 +27,11 @@
             <Font size="15.0" />
          </font>
       </Button>
+      <Button fx:id="btnSendFile" layoutX="19.0" layoutY="464.0" mnemonicParsing="false" onAction="#btnSendFileOnAction" prefHeight="38.0" prefWidth="139.0" style="-fx-background-color: #009bff; -fx-border-color: #727272; -fx-text-fill: #000000;" text="Send Files">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="ImageViwe" fitHeight="200.0" fitWidth="200.0" layoutX="380.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </AnchorPane>
